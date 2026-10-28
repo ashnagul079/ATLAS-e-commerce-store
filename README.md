@@ -1,5 +1,6 @@
 🏕️** ATLAS — Outdoor & Camping E-Commerce Store
 **
+
 ATLAS is a modern, responsive e-commerce web application designed specifically for outdoor equipment, camping gear, and apparel. Built with modern web standards, it offers a seamless and visual shopping experience across all screen sizes.
 
 🌟** Key Features**
