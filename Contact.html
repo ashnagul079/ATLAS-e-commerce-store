@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — ATLAS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav">
+    <a href="index.html" class="logo"><span class="mark">▲</span> ATLAS</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html">Shop</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="about.html">Our story</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="shop.html" class="cart-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        Cart (<span data-cart-count>0</span>)
+      </a>
+      <button class="nav-toggle" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="wrap" style="padding-top:56px;">
+    <h1>Get in touch</h1>
+    <p class="lede">Questions about an order, a repair, or which pack fits your next trip — we read every message ourselves.</p>
+  </div>
+
+  <div class="wrap contact-grid">
+    <div>
+      <form id="contact-form">
+        <div class="field-row">
+          <div class="field">
+            <label for="name">Full name</label>
+            <input type="text" id="name" required>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input type="email" id="email" required>
+          </div>
+        </div>
+        <div class="field">
+          <label for="topic">What's this about?</label>
+          <select id="topic">
+            <option>Order status</option>
+            <option>Repair request</option>
+            <option>Sizing help</option>
+            <option>Wholesale &amp; partnerships</option>
+            <option>Something else</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" required placeholder="Tell us a bit about what you need..."></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary btn-block">Send message</button>
+      </form>
+
+      <div style="margin-top:56px;">
+        <h2>Common questions</h2>
+        <details class="faq-item" open>
+          <summary>How long does shipping take?</summary>
+          <p>Standard shipping takes 3-5 business days within the country, and 7-12 days for international orders. Free on orders over $75.</p>
+        </details>
+        <details class="faq-item">
+          <summary>What's covered under the lifetime repair promise?</summary>
+          <p>Zippers, seams, straps, and buckles on any product we've sold, for as long as you own it. Send it in and we'll assess it at no charge.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Can I return an item after using it on a trip?</summary>
+          <p>Yes — our 30-day trail trial means you can actually use the gear outdoors and still return it if it's not right for you.</p>
+        </details>
+        <details class="faq-item">
+          <summary>Do you ship internationally?</summary>
+          <p>We currently ship to over 30 countries. Shipping cost and delivery time are calculated at checkout based on your address.</p>
+        </details>
+      </div>
+    </div>
+
+    <div>
+      <div class="contact-info-card">
+        <h3>Reach us directly</h3>
+        <div class="contact-info-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72c.127.96.362 1.903.7 2.81a2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0 1 22 16.92z"/></svg>
+          <div><strong>Phone support</strong><span>+92 300 1234567 — Mon to Sat, 10am to 6pm</span></div>
+        </div>
+        <div class="contact-info-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M4 4h16v16H4z"/><path d="M22 6l-10 7L2 6"/></svg>
+          <div><strong>Email</strong><span>hello@atlasoutdoor.example</span></div>
+        </div>
+        <div class="contact-info-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>
+          <div><strong>Workshop</strong><span>Karakoram Highway, Gilgit-Baltistan, Pakistan</span></div>
+        </div>
+        <div class="contact-info-item">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <div><strong>Response time</strong><span>Within one business day, most often sooner</span></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="logo"><span class="mark">▲</span> ATLAS</div>
+        <p>Gear designed with the people who use it hardest. Based in the Karakoram foothills, shipped worldwide.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html">Backpacks</a></li>
+          <li><a href="shop.html">Tents &amp; shelter</a></li>
+          <li><a href="shop.html">Outerwear</a></li>
+          <li><a href="shop.html">Camp essentials</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">Our story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Support</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay in the loop</h4>
+        <p>Trip guides, early access, and gear care tips — once a month.</p>
+        <form id="newsletter-form" class="newsletter-row">
+          <input type="email" placeholder="you@email.com" required>
+          <button type="submit" class="btn btn-gold">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Atlas Outdoor Co. Student project — not a real store.</span>
+      <span>Made for a university e-commerce assignment</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>

@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Shop all gear — ATLAS</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="site">
+  <nav class="nav">
+    <a href="index.html" class="logo"><span class="mark">▲</span> ATLAS</a>
+    <ul class="nav-links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="shop.html" class="active">Shop</a></li>
+      <li><a href="product.html">Product</a></li>
+      <li><a href="about.html">Our story</a></li>
+      <li><a href="contact.html">Contact</a></li>
+    </ul>
+    <div class="nav-right">
+      <a href="shop.html" class="cart-btn">
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.68 13.39a2 2 0 0 0 2 1.61h9.72a2 2 0 0 0 2-1.61L23 6H6"/></svg>
+        Cart (<span data-cart-count>0</span>)
+      </a>
+      <button class="nav-toggle" aria-label="Menu">☰</button>
+    </div>
+  </nav>
+</header>
+
+<main>
+  <div class="wrap shop-head">
+    <h1>All gear</h1>
+    <p class="lede">Forty-eight products, each field-tested before it earns a place on this page.</p>
+  </div>
+
+  <div class="wrap">
+    <div class="filter-bar">
+      <div class="filter-pills">
+        <button class="pill active" data-filter="all">All</button>
+        <button class="pill" data-filter="packs">Backpacks</button>
+        <button class="pill" data-filter="shelter">Shelter</button>
+        <button class="pill" data-filter="outerwear">Outerwear</button>
+        <button class="pill" data-filter="camp">Camp essentials</button>
+      </div>
+      <select class="sort-select" aria-label="Sort products">
+        <option>Sort: Featured</option>
+        <option>Price: Low to high</option>
+        <option>Price: High to low</option>
+        <option>Newest</option>
+      </select>
+    </div>
+    <hr class="divider">
+  </div>
+
+  <section class="wrap section-tight">
+    <div class="product-grid">
+
+      <a href="product.html" class="product-card" data-category="packs">
+        <div class="product-thumb"><span class="badge">Best seller</span>
+          <img src="https://images.pexels.com/photos/7263850/pexels-photo-7263850.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Summit 42L Pack" loading="lazy">
+        </div>
+        <h3>Summit 42L Pack</h3>
+        <div class="product-meta"><span class="product-cat">Backpacks</span><span class="price">$189</span></div>
+      </a>
+
+      <a href="product.html" class="product-card" data-category="packs">
+        <div class="product-thumb">
+          <img src="https://images.pexels.com/photos/1974993/pexels-photo-1974993.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Trailhead 28L Daypack" loading="lazy">
+        </div>
+        <h3>Trailhead 28L Daypack</h3>
+        <div class="product-meta"><span class="product-cat">Backpacks</span><span class="price">$119</span></div>
+      </a>
+
+      <a href="product.html" class="product-card" data-category="packs">
+        <div class="product-thumb">
+          <img src="https://images.pexels.com/photos/5480713/pexels-photo-5480713.jpeg?w=800" alt="Expedition 65L Pack" loading="lazy">
+        </div>
+        <h3>Expedition 65L Pack</h3>
+        <div class="product-meta"><span class="product-cat">Backpacks</span><span class="price">$279</span></div>
+      </a>
+
+      <a href="product.html" class="product-card" data-category="shelter">
+        <div class="product-thumb">
+          <img src="https://images.pexels.com/photos/8692427/pexels-photo-8692427.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Ridgeline 2P Tent" loading="lazy">
+        </div>
+        <h3>Ridgeline 2P Tent</h3>
+        <div class="product-meta"><span class="product-cat">Shelter</span><span class="price">$349</span></div>
+      </a>
+
+      <a href="product.html" class="product-card" data-category="shelter">
+        <div class="product-thumb">
+          <img src="https://images.pexels.com/photos/37113751/pexels-photo-37113751/free-photo-of-himalayan-expedition-tents-at-snowy-base-camp.jpeg?cs=tinysrgb&w=800" alt="Basecamp 4P Tent" loading="lazy">
+        </div>
+        <h3>Basecamp 4P Tent</h3>
+        <div class="product-meta"><span class="product-cat">Shelter</span><span class="price">$459</span></div>
+      </a>
+
+      <a href="product.html" class="product-card" data-category="shelter">
+        <div class="product-thumb">
+          <img src="https://images.pexels.com/photos/12057/pexels-photo-12057.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Down Sleep Sack" loading="lazy">
+        </div>
+        <h3>Down Sleep Sack, 15°F</h3>
+        <div class="product-meta"><span class="product-cat">Shelter</span><span class="price">$199</span></div>
+      </a>
+
+      <a href="product.html" class="product-card" data-category="outerwear">
+        <div class="product-thumb"><span class="badge">New</span>
+          <img src="https://images.pexels.com/photos/2829336/pexels-photo-2829336.jpeg?auto=compress&w=800" alt="Aegis Rain Shell" loading="lazy">
+        </div>
+        <h3>Aegis Rain Shell</h3>
+        <div class="product-meta"><span class="product-cat">Outerwear</span><span class="price">$210</span></div>
+      </a>
+
+      <a href="product.html" class="product-card" data-category="outerwear">
+        <div class="product-thumb">
+          <img src="https://images.pexels.com/photos/9061866/pexels-photo-9061866.jpeg?w=800" alt="Foothill Down Jacket" loading="lazy">
+        </div>
+        <h3>Foothill Down Jacket</h3>
+        <div class="product-meta"><span class="product-cat">Outerwear</span><span class="price">$245</span></div>
+      </a>
+
+      <a href="product.html" class="product-card" data-category="outerwear">
+        <div class="product-thumb">
+          <img src="https://images.pexels.com/photos/16496341/pexels-photo-16496341/free-photo-of-man-walking-up-a-steep-grass-hill.jpeg?w=800" alt="Windward Softshell" loading="lazy">
+        </div>
+        <h3>Windward Softshell</h3>
+        <div class="product-meta"><span class="product-cat">Outerwear</span><span class="price">$165</span></div>
+      </a>
+
+      <a href="product.html" class="product-card" data-category="camp">
+        <div class="product-thumb">
+          <img src="https://images.pexels.com/photos/10262452/pexels-photo-10262452.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Ember Camp Stove" loading="lazy">
+        </div>
+        <h3>Ember Camp Stove</h3>
+        <div class="product-meta"><span class="price"><span class="old">$95</span>$74</span></div>
+      </a>
+
+      <a href="product.html" class="product-card" data-category="camp">
+        <div class="product-thumb">
+          <img src="https://images.pexels.com/photos/10740532/pexels-photo-10740532.jpeg?auto=compress&cs=tinysrgb&w=800" alt="Basecamp Cook Set" loading="lazy">
+        </div>
+        <h3>Basecamp Cook Set</h3>
+        <div class="product-meta"><span class="product-cat">Camp essentials</span><span class="price">$68</span></div>
+      </a>
+
+      <a href="product.html" class="product-card" data-category="camp">
+        <div class="product-thumb">
+          <img src="https://images.pexels.com/photos/1967539/pexels-photo-1967539.jpeg?w=800" alt="Insulated Trail Bottle" loading="lazy">
+        </div>
+        <h3>Insulated Trail Bottle</h3>
+        <div class="product-meta"><span class="product-cat">Camp essentials</span><span class="price">$34</span></div>
+      </a>
+
+    </div>
+  </section>
+</main>
+
+<footer class="site">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <div class="logo"><span class="mark">▲</span> ATLAS</div>
+        <p>Gear designed with the people who use it hardest. Based in the Karakoram foothills, shipped worldwide.</p>
+      </div>
+      <div>
+        <h4>Shop</h4>
+        <ul>
+          <li><a href="shop.html">Backpacks</a></li>
+          <li><a href="shop.html">Tents &amp; shelter</a></li>
+          <li><a href="shop.html">Outerwear</a></li>
+          <li><a href="shop.html">Camp essentials</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Company</h4>
+        <ul>
+          <li><a href="about.html">Our story</a></li>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="contact.html">Support</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Stay in the loop</h4>
+        <p>Trip guides, early access, and gear care tips — once a month.</p>
+        <form id="newsletter-form" class="newsletter-row">
+          <input type="email" placeholder="you@email.com" required>
+          <button type="submit" class="btn btn-gold">Join</button>
+        </form>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <span>© 2026 Atlas Outdoor Co. Student project — not a real store.</span>
+      <span>Made for a university e-commerce assignment</span>
+    </div>
+  </div>
+</footer>
+
+</body>
+</html>
