@@ -1,8 +1,8 @@
-🏕️ ATLAS — Outdoor & Camping E-Commerce Store
-
+🏕️** ATLAS — Outdoor & Camping E-Commerce Store
+**
 ATLAS is a modern, responsive e-commerce web application designed specifically for outdoor equipment, camping gear, and apparel. Built with modern web standards, it offers a seamless and visual shopping experience across all screen sizes.
 
-🌟 Key Features
+🌟** Key Features**
 
 Multi-Page Store Navigation: Clean multi-page architecture including Home, Shop (Catalog), Product Details, Our Story (About), and Contact pages.
 
@@ -20,17 +20,13 @@ Interactive FAQ collapsible accordions and contact forms.
 
 Clean Visual Hierarchy: Styled with clean typography, sharp UI contrast, and modern minimalist aesthetics.
 
-🛠️ Tech Stack
+🛠️** Tech Stack**
 
 HTML5: Semantic structure and accessible markup.
 
 CSS3: Custom styles, layout structuring, and responsive breakpoints.
 
-JavaScript (ES6+): Interactive elements and dynamic UI functionality.
-
-Bootstrap: Grid structure and responsive components.
-
-📂 Project Structure
+📂** Project Structure**
 
 ATLAS-e-commerce-store/
 ├── index.html        # Home Page
